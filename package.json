@@ -50,6 +50,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dsh-external/dsh-agent-billing.git"
+    "url": "git+https://github.com/hoyyang/dsh-agent-billing.git"
   }
 }
