@@ -1,0 +1,6 @@
+# dsh-agent-billing bundle 装配声明
+# 挂载后 host 侧 register 路由 /dsh-agent-billing/*，client 侧徽标 + 面板
+insert:
+  - id: dsh-agent-billing-patch
+    name: '@dsh-external/dsh-agent-billing'
+    config: {}
