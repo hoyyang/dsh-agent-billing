@@ -33,6 +33,11 @@ export interface Config {
         daily?: number;
         monthly?: number;
     };
+    /** 官方目录源（数据源地址不入库；未配置 = 自动刷新关闭，本地已存规则继续生效） */
+    catalogSource?: {
+        page?: string;
+        bundleBase?: string;
+    };
 }
 export interface RuleDims {
     input: number | null;
@@ -157,14 +162,14 @@ export interface PriceContext {
 /** 用一条模型规则给一行用量计价 */
 export declare function priceWithRule(rule: ModelRule, row: UsageRow, ctx: PriceContext, layer: 'user' | 'official'): PricedResult;
 export declare function validateRule(raw: unknown, index: number): ModelRule;
-/** 从 Catalog 页面 HTML 提取当前数据 bundle URL */
-export declare function extractDataBundleUrl(html: string): string | null;
+/** 从目录页 HTML 提取当前数据 bundle URL */
+export declare function extractDataBundleUrl(html: string, bundleBase: string): string | null;
 /** 从 data bundle 源码提取内嵌 JSON（var e=JSON.parse(`...`)） */
 export declare function extractProvidersJson(bundleSrc: string): unknown;
-/** Catalog provider 数组 → 插件规则（与内置生成脚本同一转换逻辑） */
+/** 目录 provider 数组 → 插件规则（与内置生成脚本同一转换逻辑） */
 export declare function convertCatalogProviders(provs: any[]): ModelRule[];
-/** 抓取并转换 Catalog 全量官方规则；返回 { rules, changed }（与旧库按 key+updatedAt 对比） */
-export declare function refreshOfficialFromCatalog(oldRules: ModelRule[]): Promise<{
+/** 抓取并转换目录源全量官方规则；返回 { rules, changed }（与旧库按 key+updatedAt 对比） */
+export declare function refreshOfficialCatalog(oldRules: ModelRule[], pageUrl: string, bundleBase: string): Promise<{
     rules: ModelRule[];
     changed: number;
     source: string;

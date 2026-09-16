@@ -269,53 +269,57 @@ body:not([data-ds-dark-theme]) .dab-degraded { color:#b45309; }
 			if (!res.ok) throw new Error(json?.message ?? `HTTP ${res.status}`);
 			return json;
 		}
+		/** 本窗口会话 id：从面包屑节点的 React fiber 链上取会话 key（唯一 id，标题重复/改名免疫）。 */
+		function currentWindowSessionId() {
+			const el = document.querySelector("[class*=\"crumbCurrent\"]");
+			if (!el) return null;
+			for (const k of Object.keys(el)) {
+				if (!k.startsWith("__reactFiber$")) continue;
+				let fiber = el[k];
+				for (let i = 0; i < 8 && fiber; i += 1) {
+					if (typeof fiber.key === "string" && fiber.key.startsWith("session-")) return fiber.key;
+					fiber = fiber.return;
+				}
+			}
+			return null;
+		}
 		async function refresh() {
 			try {
 				ensureStyle();
 				statusData = await apiJson("/status");
-				const crumb = document.querySelector("[class*=\"crumbCurrent\"]")?.textContent?.trim() ?? "";
-				if (crumb.length >= 6) {
-					const hit = (statusData?.sessions ?? []).find((s) => typeof s.title === "string" && s.title.length > 0 && (s.title === crumb || s.title.slice(0, 16) === crumb.slice(0, 16) || crumb.startsWith(s.title.slice(0, 16))));
-					if (hit) perSession = await apiJson("/status?session=" + encodeURIComponent(hit.id) + "&compact=1").then((r) => r?.session ?? null).catch(() => perSession);
-					else perSession = null;
-				} else perSession = null;
+				const sid = currentWindowSessionId();
+				if (sid) perSession = await apiJson("/status?session=" + encodeURIComponent(sid) + "&compact=1").then((r) => r?.session ?? null).catch(() => perSession);
+				else {
+					const crumb = document.querySelector("[class*=\"crumbCurrent\"]")?.textContent?.trim() ?? "";
+					const hit = crumb.length >= 6 ? (statusData?.sessions ?? []).find((s) => typeof s.title === "string" && s.title.slice(0, 16) === crumb.slice(0, 16)) : null;
+					perSession = hit ? await apiJson("/status?session=" + encodeURIComponent(hit.id) + "&compact=1").then((r) => r?.session ?? null).catch(() => perSession) : null;
+				}
 				renderBadges();
 				if (overlayOpen && activeTab !== "settings") renderOverlayBody();
-			} catch {}
+			} catch (error) {
+				console.warn("[dsh-agent-billing] refresh 失败：", String(error).slice(0, 200));
+			}
+		}
+		function onRetune() {
+			const next = statusData?.settings?.refreshMs;
+			if (typeof next === "number" && next !== currentRefreshMs) {
+				currentRefreshMs = next;
+				if (pollTimer !== null) {
+					window.clearInterval(pollTimer);
+					pollTimer = null;
+				}
+				if (pollTimer === null) pollTimer = window.setInterval(() => {
+					refresh();
+				}, currentRefreshMs);
+			}
 		}
 		function startPolling(ctx) {
-			ctx.effect(() => {
-				const tick = () => {
-					if (pollTimer !== null) return;
-					pollTimer = setInterval(() => {
-						refresh();
-					}, currentRefreshMs);
-				};
-				const retune = () => {
-					if (pollTimer !== null) {
-						clearInterval(pollTimer);
-						pollTimer = null;
-					}
-					tick();
-				};
-				tick();
+			if (pollTimer !== null) return;
+			pollTimer = window.setInterval(() => {
 				refresh();
-				const handler = () => {
-					const next = statusData?.settings?.refreshMs;
-					if (typeof next === "number" && next !== currentRefreshMs) {
-						currentRefreshMs = next;
-						retune();
-					}
-				};
-				window.addEventListener("dab-retune", handler);
-				return () => {
-					window.removeEventListener("dab-retune", handler);
-					if (pollTimer !== null) {
-						clearInterval(pollTimer);
-						pollTimer = null;
-					}
-				};
-			}, `${NS}:poll`);
+			}, currentRefreshMs);
+			window.addEventListener("dab-retune", onRetune);
+			refresh();
 		}
 		function worstBudgetState() {
 			const states = [statusData?.budgets?.daily?.state, statusData?.budgets?.monthly?.state];
@@ -340,7 +344,7 @@ body:not([data-ds-dark-theme]) .dab-degraded { color:#b45309; }
 			};
 			const today = s.windows?.today?.costCny ?? null;
 			if (perSession) return {
-				today,
+				today: fmtCny(today),
 				session: fmtCny(perSession.costCny),
 				sessionCredit: false
 			};
@@ -358,8 +362,9 @@ body:not([data-ds-dark-theme]) .dab-degraded { color:#b45309; }
 		const COIN_SVG = "<svg viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><defs><linearGradient id=\"dab-coin-g\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffd75e\"/><stop offset=\".55\" stop-color=\"#f5b91e\"/><stop offset=\"1\" stop-color=\"#e0900a\"/></linearGradient></defs><circle cx=\"12\" cy=\"12\" r=\"10\" fill=\"#4a3606\"/><circle cx=\"12\" cy=\"12\" r=\"9\" fill=\"url(#dab-coin-g)\" stroke=\"#8a5f04\" stroke-width=\".5\"/><circle cx=\"12\" cy=\"12\" r=\"6.4\" fill=\"none\" stroke=\"#c9930f\" stroke-width=\".6\" opacity=\".8\"/><path d=\"M5.2 8.6 a7.4 7.4 0 0 1 5.4-4.6\" stroke=\"#fff\" stroke-width=\"1.1\" stroke-linecap=\"round\" fill=\"none\" opacity=\".7\"/><text x=\"12\" y=\"15.9\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"800\" fill=\"#ffffff\" font-family=\"ui-monospace,Menlo,monospace\">¥</text><path d=\"M4.2 2.8 l.7 1.6 1.6 .7 -1.6 .7 -.7 1.6 -.7 -1.6 -1.6 -.7 1.6 -.7 z\" fill=\"#ffffff\" opacity=\".95\"/><ellipse cx=\"8.8\" cy=\"7.4\" rx=\"2.6\" ry=\"1.3\" fill=\"#fff\" opacity=\".55\" transform=\"rotate(-32 8.8 7.4)\"/></svg>";
 		function buildBadge() {
 			ensureStyle();
-			const todayAmt = el("b", { class: "dab-amt dab-amt-today" }, "…");
-			const sessAmt = el("b", { class: "dab-amt dab-amt-sess" }, "…");
+			const initial = badgeData();
+			const todayAmt = el("b", { class: "dab-amt dab-amt-today" }, initial.today);
+			const sessAmt = el("b", { class: "dab-amt dab-amt-sess" }, initial.session);
 			const coin = el("span", {
 				class: "dab-coin",
 				"aria-hidden": "true"
@@ -377,7 +382,8 @@ body:not([data-ds-dark-theme]) .dab-degraded { color:#b45309; }
 			return shell;
 		}
 		function renderBadges() {
-			for (const node of [...badgeEls]) {
+			const nodes = /* @__PURE__ */ new Set([...document.querySelectorAll(".dab-badge"), ...badgeEls]);
+			for (const node of nodes) {
 				if (!node.isConnected) {
 					badgeEls.delete(node);
 					continue;

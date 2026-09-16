@@ -955,7 +955,7 @@ function modelsView(): HTMLElement {
         if (selectedModelKey === (m.ruleKey ?? g.id + '/' + m.id)) listWrap.append(renderConfigPanel(g.id, m))
       }
     }
-    // 说明：Catalog 全量 332 条官方规则在引擎层自动匹配（含未在本机配置的模型），无需在此浏览
+    // 说明：目录源全量 332 条官方规则在引擎层自动匹配（含未在本机配置的模型），无需在此浏览
     if (shown === 0) listWrap.append(el('div', { class: 'dab-hint' }, '无匹配模型（其它模型由内置官方规则库自动计费，无需配置）'))
   }
   renderList()

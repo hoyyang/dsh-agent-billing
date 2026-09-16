@@ -15,7 +15,7 @@ if [ -z "$DSHPKG" ]; then
   done
 fi
 if [ -z "$DSHPKG" ] || [ ! -d "$DSHPKG/node_modules/@deepseek-ai" ]; then
-  for candidate in "~/.npm-global/lib/node_modules/@deepseek-ai/dsh" "$(npm root -g 2>/dev/null)/@deepseek-ai/dsh"; do
+  for candidate in "$HOME/.npm-global/lib/node_modules/@deepseek-ai/dsh" "$(npm root -g 2>/dev/null)/@deepseek-ai/dsh"; do
     if [ -n "$candidate" ] && [ -d "$candidate/node_modules/@deepseek-ai" ]; then DSHPKG="$candidate"; break; fi
   done
 fi

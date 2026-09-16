@@ -58,6 +58,8 @@ export interface Profile {
 export interface Config {
   stateDir?: string
   budgets?: { daily?: number; monthly?: number }
+  /** 官方目录源（数据源地址不入库；未配置 = 自动刷新关闭，本地已存规则继续生效） */
+  catalogSource?: { page?: string; bundleBase?: string }
 }
 
 interface Totals {
@@ -784,7 +786,7 @@ class BillingService {
     } catch (e) { return { status: 502, body: { error: 'save-failed', message: String(e).slice(0, 300) } } }
   }
 
-  /** 模型目录：DSH 已配置（inUse）+ Catalog 官方库全量，60s 缓存 */
+  /** 模型目录：DSH 已配置（inUse）+ 目录源官方库全量，60s 缓存 */
   async catalog(): Promise<unknown> {
     if (this.catalogCache && Date.now() - this.catalogCache.at < 60_000) return this.catalogCache.data
     const officialData = this.ruleStore.official()
@@ -831,10 +833,15 @@ class BillingService {
     return data
   }
 
-  /** 官方库刷新（Catalog 全量）；返回变更数 */
+  /** 官方库刷新（目录源全量）；返回变更数 */
   async refreshOfficial(): Promise<{ changed: number; count: number }> {
+    const page = this.config.catalogSource?.page ?? process.env.AGENT_BILLING_CATALOG_PAGE ?? ''
+    const bundleBase = this.config.catalogSource?.bundleBase ?? process.env.AGENT_BILLING_CATALOG_BUNDLE_BASE ?? ''
+    if (page === '' || bundleBase === '') {
+      throw new Error('未配置官方目录源（config.catalogSource.page/bundleBase 或环境变量 AGENT_BILLING_CATALOG_PAGE / AGENT_BILLING_CATALOG_BUNDLE_BASE）——跳过刷新；本地已存规则继续生效')
+    }
     const prev = this.ruleStore.official()
-    const { rules, changed, source } = await refreshOfficialFromCatalog(prev.rules)
+    const { rules, changed, source } = await refreshOfficialCatalog(prev.rules, page, bundleBase)
     this.ruleStore.saveOfficial({ generatedAt: new Date().toISOString(), source, rules })
     this.invalidateAgg()
     this.catalogCache = null
@@ -1497,12 +1504,12 @@ export function validateRule(raw: unknown, index: number): ModelRule {
   return rule
 }
 
-// ────────────────────────────── Catalog 官方库刷新 ──────────────────────────────
+// ────────────────────────────── 官方目录刷新 ──────────────────────────────
 
-/** 从 Catalog 页面 HTML 提取当前数据 bundle URL */
-export function extractDataBundleUrl(html: string): string | null {
+/** 从目录页 HTML 提取当前数据 bundle URL */
+export function extractDataBundleUrl(html: string, bundleBase: string): string | null {
   const m = html.match(/assets\/data-[\w-]+\.js/)
-  return m ? 'https://catalog-cdn.invalid/catalog-models/' + m[0] : null
+  return m ? bundleBase + m[0] : null
 }
 
 /** 从 data bundle 源码提取内嵌 JSON（var e=JSON.parse(`...`)） */
@@ -1518,11 +1525,11 @@ export function extractProvidersJson(bundleSrc: string): unknown {
     if (ch === '[' || ch === '{') depth++
     if (ch === ']' || ch === '}') { depth--; if (depth === 0) { end = j; break } }
   }
-  if (end < 0) throw new Error('Catalog data bundle 中未找到顶层 JSON 数组')
+  if (end < 0) throw new Error('目录数据 bundle 中未找到顶层 JSON 数组')
   return JSON.parse(bundleSrc.slice(start, end + 1))
 }
 
-/** Catalog provider 数组 → 插件规则（与内置生成脚本同一转换逻辑） */
+/** 目录 provider 数组 → 插件规则（与内置生成脚本同一转换逻辑） */
 export function convertCatalogProviders(provs: any[]): ModelRule[] {
   const DIM_MAP: Record<string, keyof RuleDims> = {
     input_token: 'input', cache_token: 'cacheRead',
@@ -1586,15 +1593,15 @@ export function convertCatalogProviders(provs: any[]): ModelRule[] {
   return rules
 }
 
-/** 抓取并转换 Catalog 全量官方规则；返回 { rules, changed }（与旧库按 key+updatedAt 对比） */
-export async function refreshOfficialFromCatalog(oldRules: ModelRule[]): Promise<{ rules: ModelRule[]; changed: number; source: string }> {
-  const pageRes = await fetch('https://catalog-endpoint.invalid/catalog-models/index.html?view=list', { signal: AbortSignal.timeout(15_000) })
-  if (!pageRes.ok) throw new Error(`Catalog 页面抓取失败：HTTP ${pageRes.status}`)
+/** 抓取并转换目录源全量官方规则；返回 { rules, changed }（与旧库按 key+updatedAt 对比） */
+export async function refreshOfficialCatalog(oldRules: ModelRule[], pageUrl: string, bundleBase: string): Promise<{ rules: ModelRule[]; changed: number; source: string }> {
+  const pageRes = await fetch(pageUrl, { signal: AbortSignal.timeout(15_000) })
+  if (!pageRes.ok) throw new Error(`目录页抓取失败：HTTP ${pageRes.status}`)
   const html = await pageRes.text()
-  const bundleUrl = extractDataBundleUrl(html)
-  if (!bundleUrl) throw new Error('Catalog 页面中未找到数据 bundle URL（页面结构可能已变化）')
+  const bundleUrl = extractDataBundleUrl(html, bundleBase)
+  if (!bundleUrl) throw new Error('目录页中未找到数据 bundle URL（页面结构可能已变化）')
   const bundleRes = await fetch(bundleUrl, { signal: AbortSignal.timeout(20_000) })
-  if (!bundleRes.ok) throw new Error(`Catalog 数据 bundle 抓取失败：HTTP ${bundleRes.status}（${bundleUrl}）`)
+  if (!bundleRes.ok) throw new Error(`目录数据 bundle 抓取失败：HTTP ${bundleRes.status}（${bundleUrl}）`)
   const bundleSrc = await bundleRes.text()
   const provs = extractProvidersJson(bundleSrc) as any[]
   const rules = convertCatalogProviders(provs)

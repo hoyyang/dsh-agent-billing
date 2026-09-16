@@ -1,6 +1,6 @@
 {
  "generatedAt": "2026-09-03T11:39:39.378Z",
- "source": "catalog-models (catalog-source.invalid/api/models + data bundle)",
+ "source": "catalog (configured endpoint + data bundle)",
  "rules": [
   {
    "key": "xiaomi/model-x-flash-preview",
@@ -24,7 +24,7 @@
    "extras": [],
    "free": true,
    "source": "official",
-   "sourceRef": "catalog/xiaomi/xiaomi",
+   "sourceRef": "catalog://xiaomi/xiaomi",
    "updatedAt": "2026-09-03T11:39:39.371Z"
   },
   {
@@ -49,7 +49,7 @@
    "extras": [],
    "free": true,
    "source": "official",
-   "sourceRef": "catalog/xiaomi/xiaomi",
+   "sourceRef": "catalog://xiaomi/xiaomi",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -74,7 +74,7 @@
    "extras": [],
    "free": true,
    "source": "official",
-   "sourceRef": "catalog/xiaomi/xiaomi",
+   "sourceRef": "catalog://xiaomi/xiaomi",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -99,7 +99,7 @@
    "extras": [],
    "free": true,
    "source": "official",
-   "sourceRef": "catalog/xiaomi/xiaomi",
+   "sourceRef": "catalog://xiaomi/xiaomi",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -124,7 +124,7 @@
    "extras": [],
    "free": true,
    "source": "official",
-   "sourceRef": "catalog/xiaomi/xiaomi",
+   "sourceRef": "catalog://xiaomi/xiaomi",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -170,7 +170,7 @@
    ],
    "free": true,
    "source": "official",
-   "sourceRef": "catalog/xiaomi/xiaomi",
+   "sourceRef": "catalog://xiaomi/xiaomi",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -221,7 +221,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/xiaomi/xiaomi",
+   "sourceRef": "catalog://xiaomi/xiaomi",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -277,7 +277,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/xiaomi/xiaomi",
+   "sourceRef": "catalog://xiaomi/xiaomi",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -302,7 +302,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/xiaomi/xiaomi",
+   "sourceRef": "catalog://xiaomi/xiaomi",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -333,7 +333,7 @@
    ],
    "free": true,
    "source": "official",
-   "sourceRef": "catalog/xiaomi/xiaomi",
+   "sourceRef": "catalog://xiaomi/xiaomi",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -364,7 +364,7 @@
    ],
    "free": true,
    "source": "official",
-   "sourceRef": "catalog/xiaomi/xiaomi",
+   "sourceRef": "catalog://xiaomi/xiaomi",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -395,7 +395,7 @@
    ],
    "free": true,
    "source": "official",
-   "sourceRef": "catalog/xiaomi/xiaomi",
+   "sourceRef": "catalog://xiaomi/xiaomi",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -426,7 +426,7 @@
    ],
    "free": true,
    "source": "official",
-   "sourceRef": "catalog/xiaomi/xiaomi",
+   "sourceRef": "catalog://xiaomi/xiaomi",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -457,7 +457,7 @@
    ],
    "free": true,
    "source": "official",
-   "sourceRef": "catalog/xiaomi/xiaomi",
+   "sourceRef": "catalog://xiaomi/xiaomi",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -482,7 +482,7 @@
    "extras": [],
    "free": true,
    "source": "official",
-   "sourceRef": "catalog/xiaomi/xiaomi",
+   "sourceRef": "catalog://xiaomi/xiaomi",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -513,7 +513,7 @@
    ],
    "free": true,
    "source": "official",
-   "sourceRef": "catalog/xiaomi/xiaomi",
+   "sourceRef": "catalog://xiaomi/xiaomi",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -544,7 +544,7 @@
    ],
    "free": true,
    "source": "official",
-   "sourceRef": "catalog/xiaomi/xiaomi",
+   "sourceRef": "catalog://xiaomi/xiaomi",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -575,7 +575,7 @@
    ],
    "free": true,
    "source": "official",
-   "sourceRef": "catalog/xiaomi/xiaomi",
+   "sourceRef": "catalog://xiaomi/xiaomi",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -606,7 +606,7 @@
    ],
    "free": true,
    "source": "official",
-   "sourceRef": "catalog/xiaomi/xiaomi",
+   "sourceRef": "catalog://xiaomi/xiaomi",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -649,7 +649,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/xiaomi/xiaomi",
+   "sourceRef": "catalog://xiaomi/xiaomi",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -680,7 +680,7 @@
    ],
    "free": true,
    "source": "official",
-   "sourceRef": "catalog/xiaomi/xiaomi",
+   "sourceRef": "catalog://xiaomi/xiaomi",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -711,7 +711,7 @@
    ],
    "free": true,
    "source": "official",
-   "sourceRef": "catalog/xiaomi/xiaomi",
+   "sourceRef": "catalog://xiaomi/xiaomi",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -742,7 +742,7 @@
    ],
    "free": true,
    "source": "official",
-   "sourceRef": "catalog/xiaomi/xiaomi",
+   "sourceRef": "catalog://xiaomi/xiaomi",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -773,7 +773,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/xiaomi/xiaomi",
+   "sourceRef": "catalog://xiaomi/xiaomi",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -809,7 +809,7 @@
    ],
    "free": true,
    "source": "official",
-   "sourceRef": "catalog/xiaomi/xiaomi",
+   "sourceRef": "catalog://xiaomi/xiaomi",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -845,7 +845,7 @@
    ],
    "free": true,
    "source": "official",
-   "sourceRef": "catalog/xiaomi/xiaomi",
+   "sourceRef": "catalog://xiaomi/xiaomi",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -876,7 +876,7 @@
    ],
    "free": true,
    "source": "official",
-   "sourceRef": "catalog/xiaomi/xiaomi",
+   "sourceRef": "catalog://xiaomi/xiaomi",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -907,7 +907,7 @@
    ],
    "free": true,
    "source": "official",
-   "sourceRef": "catalog/xiaomi/xiaomi",
+   "sourceRef": "catalog://xiaomi/xiaomi",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -938,7 +938,7 @@
    ],
    "free": true,
    "source": "official",
-   "sourceRef": "catalog/xiaomi/xiaomi",
+   "sourceRef": "catalog://xiaomi/xiaomi",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -969,7 +969,7 @@
    ],
    "free": true,
    "source": "official",
-   "sourceRef": "catalog/xiaomi/xiaomi",
+   "sourceRef": "catalog://xiaomi/xiaomi",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -1000,7 +1000,7 @@
    ],
    "free": true,
    "source": "official",
-   "sourceRef": "catalog/xiaomi/xiaomi",
+   "sourceRef": "catalog://xiaomi/xiaomi",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -1031,7 +1031,7 @@
    ],
    "free": true,
    "source": "official",
-   "sourceRef": "catalog/xiaomi/xiaomi",
+   "sourceRef": "catalog://xiaomi/xiaomi",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -1062,7 +1062,7 @@
    ],
    "free": true,
    "source": "official",
-   "sourceRef": "catalog/xiaomi/xiaomi",
+   "sourceRef": "catalog://xiaomi/xiaomi",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -1093,7 +1093,7 @@
    ],
    "free": true,
    "source": "official",
-   "sourceRef": "catalog/xiaomi/xiaomi",
+   "sourceRef": "catalog://xiaomi/xiaomi",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -1124,7 +1124,7 @@
    ],
    "free": true,
    "source": "official",
-   "sourceRef": "catalog/xiaomi/xiaomi",
+   "sourceRef": "catalog://xiaomi/xiaomi",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -1155,7 +1155,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/xiaomi/xiaomi",
+   "sourceRef": "catalog://xiaomi/xiaomi",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -1186,7 +1186,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/xiaomi/xiaomi",
+   "sourceRef": "catalog://xiaomi/xiaomi",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -1217,7 +1217,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/xiaomi/xiaomi",
+   "sourceRef": "catalog://xiaomi/xiaomi",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -1248,7 +1248,7 @@
    ],
    "free": true,
    "source": "official",
-   "sourceRef": "catalog/xiaomi/xiaomi",
+   "sourceRef": "catalog://xiaomi/xiaomi",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -1279,7 +1279,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/xiaomi/xiaomi",
+   "sourceRef": "catalog://xiaomi/xiaomi",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -1310,7 +1310,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/xiaomi/xiaomi",
+   "sourceRef": "catalog://xiaomi/xiaomi",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -1341,7 +1341,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/xiaomi/xiaomi",
+   "sourceRef": "catalog://xiaomi/xiaomi",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -1372,7 +1372,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/xiaomi/xiaomi",
+   "sourceRef": "catalog://xiaomi/xiaomi",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -1403,7 +1403,7 @@
    ],
    "free": true,
    "source": "official",
-   "sourceRef": "catalog/xiaomi/xiaomi",
+   "sourceRef": "catalog://xiaomi/xiaomi",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -1434,7 +1434,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/xiaomi/xiaomi",
+   "sourceRef": "catalog://xiaomi/xiaomi",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -1459,7 +1459,7 @@
    "extras": [],
    "free": true,
    "source": "official",
-   "sourceRef": "catalog/xiaomi/xiaomi",
+   "sourceRef": "catalog://xiaomi/xiaomi",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -1490,7 +1490,7 @@
    ],
    "free": true,
    "source": "official",
-   "sourceRef": "catalog/xiaomi/xiaomi",
+   "sourceRef": "catalog://xiaomi/xiaomi",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -1521,7 +1521,7 @@
    ],
    "free": true,
    "source": "official",
-   "sourceRef": "catalog/xiaomi/xiaomi",
+   "sourceRef": "catalog://xiaomi/xiaomi",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -1552,7 +1552,7 @@
    ],
    "free": true,
    "source": "official",
-   "sourceRef": "catalog/xiaomi/xiaomi",
+   "sourceRef": "catalog://xiaomi/xiaomi",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -1583,7 +1583,7 @@
    ],
    "free": true,
    "source": "official",
-   "sourceRef": "catalog/xiaomi/xiaomi",
+   "sourceRef": "catalog://xiaomi/xiaomi",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -1614,7 +1614,7 @@
    ],
    "free": true,
    "source": "official",
-   "sourceRef": "catalog/xiaomi/xiaomi",
+   "sourceRef": "catalog://xiaomi/xiaomi",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -1639,7 +1639,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/xiaomi/xiaomi",
+   "sourceRef": "catalog://xiaomi/xiaomi",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -1670,7 +1670,7 @@
    ],
    "free": true,
    "source": "official",
-   "sourceRef": "catalog/xiaomi/xiaomi",
+   "sourceRef": "catalog://xiaomi/xiaomi",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -1701,7 +1701,7 @@
    ],
    "free": true,
    "source": "official",
-   "sourceRef": "catalog/xiaomi/xiaomi",
+   "sourceRef": "catalog://xiaomi/xiaomi",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -1726,7 +1726,7 @@
    "extras": [],
    "free": true,
    "source": "official",
-   "sourceRef": "catalog/xiaomi/xiaomi",
+   "sourceRef": "catalog://xiaomi/xiaomi",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -1751,7 +1751,7 @@
    "extras": [],
    "free": true,
    "source": "official",
-   "sourceRef": "catalog/xiaomi/xiaomi",
+   "sourceRef": "catalog://xiaomi/xiaomi",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -1776,7 +1776,7 @@
    "extras": [],
    "free": true,
    "source": "official",
-   "sourceRef": "catalog/xiaomi/xiaomi",
+   "sourceRef": "catalog://xiaomi/xiaomi",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -1807,7 +1807,7 @@
    ],
    "free": true,
    "source": "official",
-   "sourceRef": "catalog/xiaomi/xiaomi",
+   "sourceRef": "catalog://xiaomi/xiaomi",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -1838,7 +1838,7 @@
    ],
    "free": true,
    "source": "official",
-   "sourceRef": "catalog/xiaomi/xiaomi",
+   "sourceRef": "catalog://xiaomi/xiaomi",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -1863,7 +1863,7 @@
    "extras": [],
    "free": true,
    "source": "official",
-   "sourceRef": "catalog/xiaomi/xiaomi",
+   "sourceRef": "catalog://xiaomi/xiaomi",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -1894,7 +1894,7 @@
    ],
    "free": true,
    "source": "official",
-   "sourceRef": "catalog/xiaomi/xiaomi",
+   "sourceRef": "catalog://xiaomi/xiaomi",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -1919,7 +1919,7 @@
    "extras": [],
    "free": true,
    "source": "official",
-   "sourceRef": "catalog/xiaomi/xiaomi",
+   "sourceRef": "catalog://xiaomi/xiaomi",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -1944,7 +1944,7 @@
    "extras": [],
    "free": true,
    "source": "official",
-   "sourceRef": "catalog/xiaomi/xiaomi",
+   "sourceRef": "catalog://xiaomi/xiaomi",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -1969,7 +1969,7 @@
    "extras": [],
    "free": true,
    "source": "official",
-   "sourceRef": "catalog/xiaomi/xiaomi",
+   "sourceRef": "catalog://xiaomi/xiaomi",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -1994,7 +1994,7 @@
    "extras": [],
    "free": true,
    "source": "official",
-   "sourceRef": "catalog/xiaomi/xiaomi",
+   "sourceRef": "catalog://xiaomi/xiaomi",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -2025,7 +2025,7 @@
    ],
    "free": true,
    "source": "official",
-   "sourceRef": "catalog/xiaomi/xiaomi",
+   "sourceRef": "catalog://xiaomi/xiaomi",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -2050,7 +2050,7 @@
    "extras": [],
    "free": true,
    "source": "official",
-   "sourceRef": "catalog/xiaomi/xiaomi",
+   "sourceRef": "catalog://xiaomi/xiaomi",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -2075,7 +2075,7 @@
    "extras": [],
    "free": true,
    "source": "official",
-   "sourceRef": "catalog/xiaomi/xiaomi",
+   "sourceRef": "catalog://xiaomi/xiaomi",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -2100,7 +2100,7 @@
    "extras": [],
    "free": true,
    "source": "official",
-   "sourceRef": "catalog/xiaomi/xiaomi",
+   "sourceRef": "catalog://xiaomi/xiaomi",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -2125,7 +2125,7 @@
    "extras": [],
    "free": true,
    "source": "official",
-   "sourceRef": "catalog/xiaomi/xiaomi",
+   "sourceRef": "catalog://xiaomi/xiaomi",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -2168,7 +2168,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/azure_openai/azure_openai",
+   "sourceRef": "catalog://azure_openai/azure_openai",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -2211,7 +2211,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/azure_openai/azure_openai",
+   "sourceRef": "catalog://azure_openai/azure_openai",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -2236,7 +2236,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/azure_openai/azure_openai",
+   "sourceRef": "catalog://azure_openai/azure_openai",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -2261,7 +2261,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/azure_openai/azure_openai",
+   "sourceRef": "catalog://azure_openai/azure_openai",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -2286,7 +2286,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/azure_openai/azure_openai",
+   "sourceRef": "catalog://azure_openai/azure_openai",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -2311,7 +2311,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/azure_openai/azure_openai",
+   "sourceRef": "catalog://azure_openai/azure_openai",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -2336,7 +2336,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/azure_openai/azure_openai",
+   "sourceRef": "catalog://azure_openai/azure_openai",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -2361,7 +2361,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/azure_openai/azure_openai",
+   "sourceRef": "catalog://azure_openai/azure_openai",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -2386,7 +2386,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/azure_openai/azure_openai",
+   "sourceRef": "catalog://azure_openai/azure_openai",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -2417,7 +2417,7 @@
    ],
    "free": true,
    "source": "official",
-   "sourceRef": "catalog/azure_openai/azure_openai",
+   "sourceRef": "catalog://azure_openai/azure_openai",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -2442,7 +2442,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/azure_openai/azure_openai",
+   "sourceRef": "catalog://azure_openai/azure_openai",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -2473,7 +2473,7 @@
    ],
    "free": true,
    "source": "official",
-   "sourceRef": "catalog/azure_openai/azure_openai",
+   "sourceRef": "catalog://azure_openai/azure_openai",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -2498,7 +2498,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/azure_openai/azure_openai",
+   "sourceRef": "catalog://azure_openai/azure_openai",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -2523,7 +2523,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/azure_openai/azure_openai",
+   "sourceRef": "catalog://azure_openai/azure_openai",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -2548,7 +2548,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/azure_openai/azure_openai",
+   "sourceRef": "catalog://azure_openai/azure_openai",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -2573,7 +2573,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/azure_openai/azure_openai",
+   "sourceRef": "catalog://azure_openai/azure_openai",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -2598,7 +2598,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/azure_openai/azure_openai",
+   "sourceRef": "catalog://azure_openai/azure_openai",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -2623,7 +2623,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/azure_openai/azure_openai",
+   "sourceRef": "catalog://azure_openai/azure_openai",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -2648,7 +2648,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/azure_openai/azure_openai",
+   "sourceRef": "catalog://azure_openai/azure_openai",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -2673,7 +2673,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/azure_openai/azure_openai",
+   "sourceRef": "catalog://azure_openai/azure_openai",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -2698,7 +2698,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/azure_openai/azure_openai",
+   "sourceRef": "catalog://azure_openai/azure_openai",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -2723,7 +2723,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/azure_openai/azure_openai",
+   "sourceRef": "catalog://azure_openai/azure_openai",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -2748,7 +2748,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/azure_openai/azure_openai",
+   "sourceRef": "catalog://azure_openai/azure_openai",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -2773,7 +2773,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/azure_openai/azure_openai",
+   "sourceRef": "catalog://azure_openai/azure_openai",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -2798,7 +2798,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/azure_openai/azure_openai",
+   "sourceRef": "catalog://azure_openai/azure_openai",
    "updatedAt": "2026-09-03T11:39:39.373Z"
   },
   {
@@ -2823,7 +2823,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/azure_openai/azure_openai",
+   "sourceRef": "catalog://azure_openai/azure_openai",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -2848,7 +2848,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/azure_openai/azure_openai",
+   "sourceRef": "catalog://azure_openai/azure_openai",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -2873,7 +2873,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/azure_openai/azure_openai",
+   "sourceRef": "catalog://azure_openai/azure_openai",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -2898,7 +2898,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/azure_openai/azure_openai",
+   "sourceRef": "catalog://azure_openai/azure_openai",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -2923,7 +2923,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/azure_openai/azure_openai",
+   "sourceRef": "catalog://azure_openai/azure_openai",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -2948,7 +2948,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/azure_openai/azure_openai",
+   "sourceRef": "catalog://azure_openai/azure_openai",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -2973,7 +2973,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/azure_openai/azure_openai",
+   "sourceRef": "catalog://azure_openai/azure_openai",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -2998,7 +2998,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/azure_openai/azure_openai",
+   "sourceRef": "catalog://azure_openai/azure_openai",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -3023,7 +3023,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/azure_openai/azure_openai",
+   "sourceRef": "catalog://azure_openai/azure_openai",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -3048,7 +3048,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/azure_openai/azure_openai",
+   "sourceRef": "catalog://azure_openai/azure_openai",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -3073,7 +3073,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/azure_openai/azure_openai",
+   "sourceRef": "catalog://azure_openai/azure_openai",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -3098,7 +3098,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/azure_openai/azure_openai",
+   "sourceRef": "catalog://azure_openai/azure_openai",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -3123,7 +3123,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/azure_openai/azure_openai",
+   "sourceRef": "catalog://azure_openai/azure_openai",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -3148,7 +3148,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/azure_openai/azure_openai",
+   "sourceRef": "catalog://azure_openai/azure_openai",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -3173,7 +3173,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/azure_openai/azure_openai",
+   "sourceRef": "catalog://azure_openai/azure_openai",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -3198,7 +3198,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/azure_openai/azure_openai",
+   "sourceRef": "catalog://azure_openai/azure_openai",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -3223,7 +3223,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/azure_openai/azure_openai",
+   "sourceRef": "catalog://azure_openai/azure_openai",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -3248,7 +3248,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/azure_openai/azure_openai",
+   "sourceRef": "catalog://azure_openai/azure_openai",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -3273,7 +3273,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/azure_openai/azure_openai",
+   "sourceRef": "catalog://azure_openai/azure_openai",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -3298,7 +3298,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/azure_openai/azure_openai",
+   "sourceRef": "catalog://azure_openai/azure_openai",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -3323,7 +3323,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/azure_openai/azure_openai",
+   "sourceRef": "catalog://azure_openai/azure_openai",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -3348,7 +3348,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/azure_openai/azure_openai",
+   "sourceRef": "catalog://azure_openai/azure_openai",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -3373,7 +3373,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/azure_openai/azure_openai",
+   "sourceRef": "catalog://azure_openai/azure_openai",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -3398,7 +3398,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/azure_openai/azure_openai",
+   "sourceRef": "catalog://azure_openai/azure_openai",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -3423,7 +3423,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/azure_openai/azure_openai",
+   "sourceRef": "catalog://azure_openai/azure_openai",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -3448,7 +3448,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/azure_openai/azure_openai",
+   "sourceRef": "catalog://azure_openai/azure_openai",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -3491,7 +3491,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/azure_openai/azure_openai",
+   "sourceRef": "catalog://azure_openai/azure_openai",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -3534,7 +3534,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/azure_openai/azure_openai",
+   "sourceRef": "catalog://azure_openai/azure_openai",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -3577,7 +3577,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/azure_openai/azure_openai",
+   "sourceRef": "catalog://azure_openai/azure_openai",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -3602,7 +3602,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/azure_openai/azure_openai",
+   "sourceRef": "catalog://azure_openai/azure_openai",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -3627,7 +3627,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/azure_openai/azure_openai",
+   "sourceRef": "catalog://azure_openai/azure_openai",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -3652,7 +3652,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/azure_openai/azure_openai",
+   "sourceRef": "catalog://azure_openai/azure_openai",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -3677,7 +3677,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/azure_openai/azure_openai",
+   "sourceRef": "catalog://azure_openai/azure_openai",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -3702,7 +3702,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/azure_openai/azure_openai",
+   "sourceRef": "catalog://azure_openai/azure_openai",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -3747,7 +3747,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/tongyi/tongyi",
+   "sourceRef": "catalog://tongyi/tongyi",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -3792,7 +3792,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/tongyi/tongyi",
+   "sourceRef": "catalog://tongyi/tongyi",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -3846,7 +3846,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/tongyi/tongyi",
+   "sourceRef": "catalog://tongyi/tongyi",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -3871,7 +3871,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/tongyi/tongyi",
+   "sourceRef": "catalog://tongyi/tongyi",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -3914,7 +3914,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/tongyi/tongyi",
+   "sourceRef": "catalog://tongyi/tongyi",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -3939,7 +3939,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/tongyi/tongyi",
+   "sourceRef": "catalog://tongyi/tongyi",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -3982,7 +3982,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/tongyi/tongyi",
+   "sourceRef": "catalog://tongyi/tongyi",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -4007,7 +4007,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/tongyi/tongyi",
+   "sourceRef": "catalog://tongyi/tongyi",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -4032,7 +4032,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/tongyi/tongyi",
+   "sourceRef": "catalog://tongyi/tongyi",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -4063,7 +4063,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/tongyi/tongyi",
+   "sourceRef": "catalog://tongyi/tongyi",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -4094,7 +4094,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/tongyi/tongyi",
+   "sourceRef": "catalog://tongyi/tongyi",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -4137,7 +4137,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/tongyi/tongyi",
+   "sourceRef": "catalog://tongyi/tongyi",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -4180,7 +4180,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/tongyi/tongyi",
+   "sourceRef": "catalog://tongyi/tongyi",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -4223,7 +4223,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/tongyi/tongyi",
+   "sourceRef": "catalog://tongyi/tongyi",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -4266,7 +4266,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/tongyi/tongyi",
+   "sourceRef": "catalog://tongyi/tongyi",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -4309,7 +4309,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/tongyi/tongyi",
+   "sourceRef": "catalog://tongyi/tongyi",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -4352,7 +4352,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/tongyi/tongyi",
+   "sourceRef": "catalog://tongyi/tongyi",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -4395,7 +4395,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/tongyi/tongyi",
+   "sourceRef": "catalog://tongyi/tongyi",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -4438,7 +4438,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/tongyi/tongyi",
+   "sourceRef": "catalog://tongyi/tongyi",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -4492,7 +4492,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/tongyi/tongyi",
+   "sourceRef": "catalog://tongyi/tongyi",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -4546,7 +4546,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/tongyi/tongyi",
+   "sourceRef": "catalog://tongyi/tongyi",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -4600,7 +4600,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/tongyi/tongyi",
+   "sourceRef": "catalog://tongyi/tongyi",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -4654,7 +4654,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/tongyi/tongyi",
+   "sourceRef": "catalog://tongyi/tongyi",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -4708,7 +4708,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/tongyi/tongyi",
+   "sourceRef": "catalog://tongyi/tongyi",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -4733,7 +4733,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/tongyi/tongyi",
+   "sourceRef": "catalog://tongyi/tongyi",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -4776,7 +4776,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/tongyi/tongyi",
+   "sourceRef": "catalog://tongyi/tongyi",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -4807,7 +4807,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/tongyi/tongyi",
+   "sourceRef": "catalog://tongyi/tongyi",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -4832,7 +4832,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/tongyi/tongyi",
+   "sourceRef": "catalog://tongyi/tongyi",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -4886,7 +4886,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/tongyi/tongyi",
+   "sourceRef": "catalog://tongyi/tongyi",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -4940,7 +4940,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/tongyi/tongyi",
+   "sourceRef": "catalog://tongyi/tongyi",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -4994,7 +4994,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/tongyi/tongyi",
+   "sourceRef": "catalog://tongyi/tongyi",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -5019,7 +5019,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/tongyi/tongyi",
+   "sourceRef": "catalog://tongyi/tongyi",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -5044,7 +5044,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/tongyi/tongyi",
+   "sourceRef": "catalog://tongyi/tongyi",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -5098,7 +5098,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/tongyi/tongyi",
+   "sourceRef": "catalog://tongyi/tongyi",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -5152,7 +5152,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/tongyi/tongyi",
+   "sourceRef": "catalog://tongyi/tongyi",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -5177,7 +5177,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/tongyi/tongyi",
+   "sourceRef": "catalog://tongyi/tongyi",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -5202,7 +5202,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/tongyi/tongyi",
+   "sourceRef": "catalog://tongyi/tongyi",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -5227,7 +5227,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/tongyi/tongyi",
+   "sourceRef": "catalog://tongyi/tongyi",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -5252,7 +5252,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/tongyi/tongyi",
+   "sourceRef": "catalog://tongyi/tongyi",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -5277,7 +5277,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/tongyi/tongyi",
+   "sourceRef": "catalog://tongyi/tongyi",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -5302,7 +5302,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/tongyi/tongyi",
+   "sourceRef": "catalog://tongyi/tongyi",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -5356,7 +5356,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/tongyi/tongyi",
+   "sourceRef": "catalog://tongyi/tongyi",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -5410,7 +5410,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/tongyi/tongyi",
+   "sourceRef": "catalog://tongyi/tongyi",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -5464,7 +5464,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/tongyi/tongyi",
+   "sourceRef": "catalog://tongyi/tongyi",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -5518,7 +5518,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/tongyi/tongyi",
+   "sourceRef": "catalog://tongyi/tongyi",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -5572,7 +5572,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/tongyi/tongyi",
+   "sourceRef": "catalog://tongyi/tongyi",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -5597,7 +5597,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/tongyi/tongyi",
+   "sourceRef": "catalog://tongyi/tongyi",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -5651,7 +5651,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/tongyi/tongyi",
+   "sourceRef": "catalog://tongyi/tongyi",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -5705,7 +5705,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/tongyi/tongyi",
+   "sourceRef": "catalog://tongyi/tongyi",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -5759,7 +5759,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/tongyi/tongyi",
+   "sourceRef": "catalog://tongyi/tongyi",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -5802,7 +5802,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/tongyi/tongyi",
+   "sourceRef": "catalog://tongyi/tongyi",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -5845,7 +5845,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/tongyi/tongyi",
+   "sourceRef": "catalog://tongyi/tongyi",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -5888,7 +5888,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/tongyi/tongyi",
+   "sourceRef": "catalog://tongyi/tongyi",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -5931,7 +5931,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/tongyi/tongyi",
+   "sourceRef": "catalog://tongyi/tongyi",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -5974,7 +5974,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/tongyi/tongyi",
+   "sourceRef": "catalog://tongyi/tongyi",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -6017,7 +6017,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/tongyi/tongyi",
+   "sourceRef": "catalog://tongyi/tongyi",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -6042,7 +6042,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/tongyi/tongyi",
+   "sourceRef": "catalog://tongyi/tongyi",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -6067,7 +6067,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/tongyi/tongyi",
+   "sourceRef": "catalog://tongyi/tongyi",
    "updatedAt": "2026-09-03T11:39:39.374Z"
   },
   {
@@ -6092,7 +6092,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/volcengine_maas/volcengine_maas",
+   "sourceRef": "catalog://volcengine_maas/volcengine_maas",
    "updatedAt": "2026-09-03T11:39:39.375Z"
   },
   {
@@ -6117,7 +6117,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/volcengine_maas/volcengine_maas",
+   "sourceRef": "catalog://volcengine_maas/volcengine_maas",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -6142,7 +6142,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/volcengine_maas/volcengine_maas",
+   "sourceRef": "catalog://volcengine_maas/volcengine_maas",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -6196,7 +6196,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/volcengine_maas/volcengine_maas",
+   "sourceRef": "catalog://volcengine_maas/volcengine_maas",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -6250,7 +6250,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/volcengine_maas/volcengine_maas",
+   "sourceRef": "catalog://volcengine_maas/volcengine_maas",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -6304,7 +6304,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/volcengine_maas/volcengine_maas",
+   "sourceRef": "catalog://volcengine_maas/volcengine_maas",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -6358,7 +6358,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/volcengine_maas/volcengine_maas",
+   "sourceRef": "catalog://volcengine_maas/volcengine_maas",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -6412,7 +6412,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/volcengine_maas/volcengine_maas",
+   "sourceRef": "catalog://volcengine_maas/volcengine_maas",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -6466,7 +6466,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/volcengine_maas/volcengine_maas",
+   "sourceRef": "catalog://volcengine_maas/volcengine_maas",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -6531,7 +6531,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/volcengine_maas/volcengine_maas",
+   "sourceRef": "catalog://volcengine_maas/volcengine_maas",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -6556,7 +6556,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/volcengine_maas/volcengine_maas",
+   "sourceRef": "catalog://volcengine_maas/volcengine_maas",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -6581,7 +6581,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/volcengine_maas/volcengine_maas",
+   "sourceRef": "catalog://volcengine_maas/volcengine_maas",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -6606,7 +6606,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/volcengine_maas/volcengine_maas",
+   "sourceRef": "catalog://volcengine_maas/volcengine_maas",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -6631,7 +6631,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/volcengine_maas/volcengine_maas",
+   "sourceRef": "catalog://volcengine_maas/volcengine_maas",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -6656,7 +6656,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/volcengine_maas/volcengine_maas",
+   "sourceRef": "catalog://volcengine_maas/volcengine_maas",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -6699,7 +6699,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/volcengine_maas/volcengine_maas",
+   "sourceRef": "catalog://volcengine_maas/volcengine_maas",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -6730,7 +6730,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/volcengine_maas/volcengine_maas",
+   "sourceRef": "catalog://volcengine_maas/volcengine_maas",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -6755,7 +6755,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/volcengine_maas/volcengine_maas",
+   "sourceRef": "catalog://volcengine_maas/volcengine_maas",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -6780,7 +6780,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/volcengine_maas/volcengine_maas",
+   "sourceRef": "catalog://volcengine_maas/volcengine_maas",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -6805,7 +6805,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/volcengine_maas/volcengine_maas",
+   "sourceRef": "catalog://volcengine_maas/volcengine_maas",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -6830,7 +6830,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/volcengine_maas/volcengine_maas",
+   "sourceRef": "catalog://volcengine_maas/volcengine_maas",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -6855,7 +6855,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/volcengine_maas/volcengine_maas",
+   "sourceRef": "catalog://volcengine_maas/volcengine_maas",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -6880,7 +6880,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/volcengine_maas/volcengine_maas",
+   "sourceRef": "catalog://volcengine_maas/volcengine_maas",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -6905,7 +6905,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/volcengine_maas/volcengine_maas",
+   "sourceRef": "catalog://volcengine_maas/volcengine_maas",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -6941,7 +6941,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/volcengine_maas/volcengine_maas",
+   "sourceRef": "catalog://volcengine_maas/volcengine_maas",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -7006,7 +7006,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/volcengine_maas/volcengine_maas",
+   "sourceRef": "catalog://volcengine_maas/volcengine_maas",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -7060,7 +7060,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/volcengine_maas/volcengine_maas",
+   "sourceRef": "catalog://volcengine_maas/volcengine_maas",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -7125,7 +7125,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/volcengine_maas/volcengine_maas",
+   "sourceRef": "catalog://volcengine_maas/volcengine_maas",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -7179,7 +7179,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/volcengine_maas/volcengine_maas",
+   "sourceRef": "catalog://volcengine_maas/volcengine_maas",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -7233,7 +7233,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/volcengine_maas/volcengine_maas",
+   "sourceRef": "catalog://volcengine_maas/volcengine_maas",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -7287,7 +7287,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/volcengine_maas/volcengine_maas",
+   "sourceRef": "catalog://volcengine_maas/volcengine_maas",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -7341,7 +7341,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/volcengine_maas/volcengine_maas",
+   "sourceRef": "catalog://volcengine_maas/volcengine_maas",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -7372,7 +7372,7 @@
    ],
    "free": true,
    "source": "official",
-   "sourceRef": "catalog/volcengine_maas/volcengine_maas",
+   "sourceRef": "catalog://volcengine_maas/volcengine_maas",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -7481,7 +7481,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/deepseek/deepseek",
+   "sourceRef": "catalog://deepseek/deepseek",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -7577,7 +7577,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/deepseek/deepseek",
+   "sourceRef": "catalog://deepseek/deepseek",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -7673,7 +7673,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/deepseek/deepseek",
+   "sourceRef": "catalog://deepseek/deepseek",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -7704,7 +7704,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/zhipuai/zhipuai",
+   "sourceRef": "catalog://zhipuai/zhipuai",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -7747,7 +7747,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/zhipuai/zhipuai",
+   "sourceRef": "catalog://zhipuai/zhipuai",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -7812,7 +7812,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/zhipuai/zhipuai",
+   "sourceRef": "catalog://zhipuai/zhipuai",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -7866,7 +7866,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/zhipuai/zhipuai",
+   "sourceRef": "catalog://zhipuai/zhipuai",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -7891,7 +7891,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/zhipuai/zhipuai",
+   "sourceRef": "catalog://zhipuai/zhipuai",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -7916,7 +7916,7 @@
    "extras": [],
    "free": true,
    "source": "official",
-   "sourceRef": "catalog/zhipuai/zhipuai",
+   "sourceRef": "catalog://zhipuai/zhipuai",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -7941,7 +7941,7 @@
    "extras": [],
    "free": true,
    "source": "official",
-   "sourceRef": "catalog/zhipuai/zhipuai",
+   "sourceRef": "catalog://zhipuai/zhipuai",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -7966,7 +7966,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/zhipuai/zhipuai",
+   "sourceRef": "catalog://zhipuai/zhipuai",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -7991,7 +7991,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/zhipuai/zhipuai",
+   "sourceRef": "catalog://zhipuai/zhipuai",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -8045,7 +8045,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/zhipuai/zhipuai",
+   "sourceRef": "catalog://zhipuai/zhipuai",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -8088,7 +8088,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/zhipuai/zhipuai",
+   "sourceRef": "catalog://zhipuai/zhipuai",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -8142,7 +8142,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/zhipuai/zhipuai",
+   "sourceRef": "catalog://zhipuai/zhipuai",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -8173,7 +8173,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/zhipuai/zhipuai",
+   "sourceRef": "catalog://zhipuai/zhipuai",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -8198,7 +8198,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/zhipuai/zhipuai",
+   "sourceRef": "catalog://zhipuai/zhipuai",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -8223,7 +8223,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/zhipuai/zhipuai",
+   "sourceRef": "catalog://zhipuai/zhipuai",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -8266,7 +8266,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/minimax/minimax",
+   "sourceRef": "catalog://minimax/minimax",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -8291,7 +8291,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/minimax/minimax",
+   "sourceRef": "catalog://minimax/minimax",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -8316,7 +8316,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/minimax/minimax",
+   "sourceRef": "catalog://minimax/minimax",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -8341,7 +8341,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/minimax/minimax",
+   "sourceRef": "catalog://minimax/minimax",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -8366,7 +8366,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/moonshot/moonshot",
+   "sourceRef": "catalog://moonshot/moonshot",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -8391,7 +8391,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/moonshot/moonshot",
+   "sourceRef": "catalog://moonshot/moonshot",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -8416,7 +8416,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/moonshot/moonshot",
+   "sourceRef": "catalog://moonshot/moonshot",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -8441,7 +8441,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/moonshot/moonshot",
+   "sourceRef": "catalog://moonshot/moonshot",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -8466,7 +8466,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/moonshot/moonshot",
+   "sourceRef": "catalog://moonshot/moonshot",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -8497,7 +8497,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/moonshot/moonshot",
+   "sourceRef": "catalog://moonshot/moonshot",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -8522,7 +8522,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/vertex_ai/vertex_ai",
+   "sourceRef": "catalog://vertex_ai/vertex_ai",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -8565,7 +8565,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/vertex_ai/vertex_ai",
+   "sourceRef": "catalog://vertex_ai/vertex_ai",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -8608,7 +8608,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/vertex_ai/vertex_ai",
+   "sourceRef": "catalog://vertex_ai/vertex_ai",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -8633,7 +8633,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/vertex_ai/vertex_ai",
+   "sourceRef": "catalog://vertex_ai/vertex_ai",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -8658,7 +8658,7 @@
    "extras": [],
    "free": true,
    "source": "official",
-   "sourceRef": "catalog/vertex_ai/vertex_ai",
+   "sourceRef": "catalog://vertex_ai/vertex_ai",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -8683,7 +8683,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/vertex_ai/vertex_ai",
+   "sourceRef": "catalog://vertex_ai/vertex_ai",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -8708,7 +8708,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/vertex_ai/vertex_ai",
+   "sourceRef": "catalog://vertex_ai/vertex_ai",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -8733,7 +8733,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/vertex_ai/vertex_ai",
+   "sourceRef": "catalog://vertex_ai/vertex_ai",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -8758,7 +8758,7 @@
    "extras": [],
    "free": true,
    "source": "official",
-   "sourceRef": "catalog/vertex_ai/vertex_ai",
+   "sourceRef": "catalog://vertex_ai/vertex_ai",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -8801,7 +8801,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/vertex_ai/vertex_ai",
+   "sourceRef": "catalog://vertex_ai/vertex_ai",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -8826,7 +8826,7 @@
    "extras": [],
    "free": true,
    "source": "official",
-   "sourceRef": "catalog/vertex_ai/vertex_ai",
+   "sourceRef": "catalog://vertex_ai/vertex_ai",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -8851,7 +8851,7 @@
    "extras": [],
    "free": true,
    "source": "official",
-   "sourceRef": "catalog/vertex_ai/vertex_ai",
+   "sourceRef": "catalog://vertex_ai/vertex_ai",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -8876,7 +8876,7 @@
    "extras": [],
    "free": true,
    "source": "official",
-   "sourceRef": "catalog/vertex_ai/vertex_ai",
+   "sourceRef": "catalog://vertex_ai/vertex_ai",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -8901,7 +8901,7 @@
    "extras": [],
    "free": true,
    "source": "official",
-   "sourceRef": "catalog/vertex_ai/vertex_ai",
+   "sourceRef": "catalog://vertex_ai/vertex_ai",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -8926,7 +8926,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/vertex_ai/vertex_ai",
+   "sourceRef": "catalog://vertex_ai/vertex_ai",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -8951,7 +8951,7 @@
    "extras": [],
    "free": true,
    "source": "official",
-   "sourceRef": "catalog/vertex_ai/vertex_ai",
+   "sourceRef": "catalog://vertex_ai/vertex_ai",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -8976,7 +8976,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/vertex_ai/vertex_ai",
+   "sourceRef": "catalog://vertex_ai/vertex_ai",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -9001,7 +9001,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/vertex_ai/vertex_ai",
+   "sourceRef": "catalog://vertex_ai/vertex_ai",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -9044,7 +9044,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/siliconflow/siliconflow",
+   "sourceRef": "catalog://siliconflow/siliconflow",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -9069,7 +9069,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/siliconflow/siliconflow",
+   "sourceRef": "catalog://siliconflow/siliconflow",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -9094,7 +9094,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/siliconflow/siliconflow",
+   "sourceRef": "catalog://siliconflow/siliconflow",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -9119,7 +9119,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/siliconflow/siliconflow",
+   "sourceRef": "catalog://siliconflow/siliconflow",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -9144,7 +9144,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/siliconflow/siliconflow",
+   "sourceRef": "catalog://siliconflow/siliconflow",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -9169,7 +9169,7 @@
    "extras": [],
    "free": true,
    "source": "official",
-   "sourceRef": "catalog/siliconflow/siliconflow",
+   "sourceRef": "catalog://siliconflow/siliconflow",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -9194,7 +9194,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/siliconflow/siliconflow",
+   "sourceRef": "catalog://siliconflow/siliconflow",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -9219,7 +9219,7 @@
    "extras": [],
    "free": true,
    "source": "official",
-   "sourceRef": "catalog/siliconflow/siliconflow",
+   "sourceRef": "catalog://siliconflow/siliconflow",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -9244,7 +9244,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/openai_api_compatible/openai_api_compatible",
+   "sourceRef": "catalog://openai_api_compatible/openai_api_compatible",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -9269,7 +9269,7 @@
    "extras": [],
    "free": true,
    "source": "official",
-   "sourceRef": "catalog/openai_api_compatible/openai_api_compatible",
+   "sourceRef": "catalog://openai_api_compatible/openai_api_compatible",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -9294,7 +9294,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/openai_api_compatible/openai_api_compatible",
+   "sourceRef": "catalog://openai_api_compatible/openai_api_compatible",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -9319,7 +9319,7 @@
    "extras": [],
    "free": true,
    "source": "official",
-   "sourceRef": "catalog/openai_api_compatible/openai_api_compatible",
+   "sourceRef": "catalog://openai_api_compatible/openai_api_compatible",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -9344,7 +9344,7 @@
    "extras": [],
    "free": true,
    "source": "official",
-   "sourceRef": "catalog/openai_api_compatible/openai_api_compatible",
+   "sourceRef": "catalog://openai_api_compatible/openai_api_compatible",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -9369,7 +9369,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/openai_api_compatible/openai_api_compatible",
+   "sourceRef": "catalog://openai_api_compatible/openai_api_compatible",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -9394,7 +9394,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/openai_api_compatible/openai_api_compatible",
+   "sourceRef": "catalog://openai_api_compatible/openai_api_compatible",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -9419,7 +9419,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/openai_api_compatible/openai_api_compatible",
+   "sourceRef": "catalog://openai_api_compatible/openai_api_compatible",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -9450,7 +9450,7 @@
    ],
    "free": true,
    "source": "official",
-   "sourceRef": "catalog/openai_api_compatible/openai_api_compatible",
+   "sourceRef": "catalog://openai_api_compatible/openai_api_compatible",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -9481,7 +9481,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/openai_api_compatible/openai_api_compatible",
+   "sourceRef": "catalog://openai_api_compatible/openai_api_compatible",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -9512,7 +9512,7 @@
    ],
    "free": true,
    "source": "official",
-   "sourceRef": "catalog/openai_api_compatible/openai_api_compatible",
+   "sourceRef": "catalog://openai_api_compatible/openai_api_compatible",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -9537,7 +9537,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/openai_api_compatible/openai_api_compatible",
+   "sourceRef": "catalog://openai_api_compatible/openai_api_compatible",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -9568,7 +9568,7 @@
    ],
    "free": true,
    "source": "official",
-   "sourceRef": "catalog/openai_api_compatible/openai_api_compatible",
+   "sourceRef": "catalog://openai_api_compatible/openai_api_compatible",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -9599,7 +9599,7 @@
    ],
    "free": true,
    "source": "official",
-   "sourceRef": "catalog/openai_api_compatible/openai_api_compatible",
+   "sourceRef": "catalog://openai_api_compatible/openai_api_compatible",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -9630,7 +9630,7 @@
    ],
    "free": true,
    "source": "official",
-   "sourceRef": "catalog/openai_api_compatible/openai_api_compatible",
+   "sourceRef": "catalog://openai_api_compatible/openai_api_compatible",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -9661,7 +9661,7 @@
    ],
    "free": true,
    "source": "official",
-   "sourceRef": "catalog/openai_api_compatible/openai_api_compatible",
+   "sourceRef": "catalog://openai_api_compatible/openai_api_compatible",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -9692,7 +9692,7 @@
    ],
    "free": true,
    "source": "official",
-   "sourceRef": "catalog/openai_api_compatible/openai_api_compatible",
+   "sourceRef": "catalog://openai_api_compatible/openai_api_compatible",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -9723,7 +9723,7 @@
    ],
    "free": true,
    "source": "official",
-   "sourceRef": "catalog/openai_api_compatible/openai_api_compatible",
+   "sourceRef": "catalog://openai_api_compatible/openai_api_compatible",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -9754,7 +9754,7 @@
    ],
    "free": true,
    "source": "official",
-   "sourceRef": "catalog/openai_api_compatible/openai_api_compatible",
+   "sourceRef": "catalog://openai_api_compatible/openai_api_compatible",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -9785,7 +9785,7 @@
    ],
    "free": true,
    "source": "official",
-   "sourceRef": "catalog/openai_api_compatible/openai_api_compatible",
+   "sourceRef": "catalog://openai_api_compatible/openai_api_compatible",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -9810,7 +9810,7 @@
    "extras": [],
    "free": true,
    "source": "official",
-   "sourceRef": "catalog/openai_api_compatible/openai_api_compatible",
+   "sourceRef": "catalog://openai_api_compatible/openai_api_compatible",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -9841,7 +9841,7 @@
    ],
    "free": true,
    "source": "official",
-   "sourceRef": "catalog/openai_api_compatible/openai_api_compatible",
+   "sourceRef": "catalog://openai_api_compatible/openai_api_compatible",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -9872,7 +9872,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/tencent/tencent",
+   "sourceRef": "catalog://tencent/tencent",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -9897,7 +9897,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/streamlake/streamlake",
+   "sourceRef": "catalog://streamlake/streamlake",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -9922,7 +9922,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/streamlake/streamlake",
+   "sourceRef": "catalog://streamlake/streamlake",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -9953,7 +9953,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/streamlake/streamlake",
+   "sourceRef": "catalog://streamlake/streamlake",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -9978,7 +9978,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/ppio/ppio",
+   "sourceRef": "catalog://ppio/ppio",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -10009,7 +10009,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/ppio/ppio",
+   "sourceRef": "catalog://ppio/ppio",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -10052,7 +10052,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/ppio/ppio",
+   "sourceRef": "catalog://ppio/ppio",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -10077,7 +10077,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/ppio/ppio",
+   "sourceRef": "catalog://ppio/ppio",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -10102,7 +10102,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/ppio/ppio",
+   "sourceRef": "catalog://ppio/ppio",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -10127,7 +10127,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/ppio/ppio",
+   "sourceRef": "catalog://ppio/ppio",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -10152,7 +10152,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/ppio/ppio",
+   "sourceRef": "catalog://ppio/ppio",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -10177,7 +10177,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/ppio/ppio",
+   "sourceRef": "catalog://ppio/ppio",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -10202,7 +10202,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/ppio/ppio",
+   "sourceRef": "catalog://ppio/ppio",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -10233,7 +10233,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/ppio/ppio",
+   "sourceRef": "catalog://ppio/ppio",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -10258,7 +10258,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/ppio/ppio",
+   "sourceRef": "catalog://ppio/ppio",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -10283,7 +10283,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/ppio/ppio",
+   "sourceRef": "catalog://ppio/ppio",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -10308,7 +10308,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/ppio/ppio",
+   "sourceRef": "catalog://ppio/ppio",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -10333,7 +10333,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/ppio/ppio",
+   "sourceRef": "catalog://ppio/ppio",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -10358,7 +10358,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/ppio/ppio",
+   "sourceRef": "catalog://ppio/ppio",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -10383,7 +10383,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/ppio/ppio",
+   "sourceRef": "catalog://ppio/ppio",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -10414,7 +10414,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/ppio/ppio",
+   "sourceRef": "catalog://ppio/ppio",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -10439,7 +10439,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/ppio/ppio",
+   "sourceRef": "catalog://ppio/ppio",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -10470,7 +10470,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/ppio/ppio",
+   "sourceRef": "catalog://ppio/ppio",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -10513,7 +10513,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/ppio/ppio",
+   "sourceRef": "catalog://ppio/ppio",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -10556,7 +10556,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/ppio/ppio",
+   "sourceRef": "catalog://ppio/ppio",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -10599,7 +10599,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/ppio/ppio",
+   "sourceRef": "catalog://ppio/ppio",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -10624,7 +10624,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/ppio/ppio",
+   "sourceRef": "catalog://ppio/ppio",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -10667,7 +10667,7 @@
    ],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/oci/oci",
+   "sourceRef": "catalog://oci/oci",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -10692,7 +10692,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/aws/aws",
+   "sourceRef": "catalog://aws/aws",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -10717,7 +10717,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/aws/aws",
+   "sourceRef": "catalog://aws/aws",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -10742,7 +10742,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/aws/aws",
+   "sourceRef": "catalog://aws/aws",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -10767,7 +10767,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/aws/aws",
+   "sourceRef": "catalog://aws/aws",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -10792,7 +10792,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/aws/aws",
+   "sourceRef": "catalog://aws/aws",
    "updatedAt": "2026-09-03T11:39:39.377Z"
   },
   {
@@ -10817,7 +10817,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/aws/aws",
+   "sourceRef": "catalog://aws/aws",
    "updatedAt": "2026-09-03T11:39:39.378Z"
   },
   {
@@ -10842,7 +10842,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/kc/kc",
+   "sourceRef": "catalog://kc/kc",
    "updatedAt": "2026-09-03T11:39:39.378Z"
   },
   {
@@ -10867,7 +10867,7 @@
    "extras": [],
    "free": false,
    "source": "official",
-   "sourceRef": "catalog/kc/kc",
+   "sourceRef": "catalog://kc/kc",
    "updatedAt": "2026-09-03T11:39:39.378Z"
   }
  ]
